@@ -1,3 +1,4 @@
+```
 import requests
 
 URL = "https://www.momoshop.com.tw/search/"
@@ -15,3 +16,5 @@ if r.status_code == requests.codes.ok:
 
 else:
     print("http請求錯誤..."+URL)
+```
+[image]!=(https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/1.png)
