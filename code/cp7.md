@@ -35,4 +35,4 @@ for i in range(1,10):
     print("等待5秒鐘...")
     time.sleep(5)
 ```
-![image](https://github.com/kampfcl3/pyhon_WebScrapying/upload/main/pic)
+![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/2q.png)
