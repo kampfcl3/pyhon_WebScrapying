@@ -1,4 +1,5 @@
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/1.png)
+#momoshop
 ```
 import requests
 
@@ -19,3 +20,19 @@ else:
     print("http請求錯誤..."+URL)
 ```
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/1q.png)
+
+
+#wait 5 sec
+```
+import requests
+import time
+
+URL = "https://www.majortests.com/word-lists/word-list-01.html"
+for i in range(1,10):
+    url = URL.format(i)
+    r = requests.get(url)
+    print(r.status_code)
+    print("等待5秒鐘...")
+    time.sleep(5)
+```
+![image](https://github.com/kampfcl3/pyhon_WebScrapying/upload/main/pic)
