@@ -37,7 +37,7 @@ for i in range(1,10):
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/2q.png)
 
 # ppt scrap
-##remember pip install beautifulsoup4 and lxml
+## remember pip install beautifulsoup4 and lxml
 ```
 import requests
 from bs4 import BeautifulSoup
