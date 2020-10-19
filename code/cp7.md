@@ -59,3 +59,31 @@ else:
 ```
 
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/3q.png)
+
+```
+import requests
+from bs4 import BeautifulSoup
+URL = "https://www.ptt.cc/bbs/Gossiping/index.html"
+
+
+r = requests.get(URL,cookies={"over18":"1"})
+if r.status_code == requests.codes.ok:
+    r.encoding = "utf8"
+    soup = BeautifulSoup(r.text,"lxml")
+    tag_divs = soup.find_all("div",class_="r-ent")
+    for tag in tag_divs:
+        if tag.find('a'):
+            tag_a = tag.find("a")
+            print(tag_a["href"])
+            print(tag_a.text)
+            print(tag.find("div", class_="author").string)
+else:
+    print("HTTP 請求錯誤..."+URL)
+
+```
+
+![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/4q.png)
+
+```
+
+```
