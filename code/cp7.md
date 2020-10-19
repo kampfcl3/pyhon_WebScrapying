@@ -37,6 +37,7 @@ for i in range(1,10):
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/2q.png)
 
 #ppt scrap
+#remember pip install beautifulsoup4 and lxml
 ```
 import requests
 from bs4 import BeautifulSoup
@@ -56,5 +57,5 @@ if r.status_code == requests.codes.ok:
 else:
     print("HTTP 請求錯誤..."+URL)
 ```
-#remember pip install beautifulsoup4 and lxml
+
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/3q.png)
