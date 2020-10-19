@@ -1,4 +1,4 @@
-#momoshop
+# momoshop
 ```
 import requests
 
@@ -21,7 +21,7 @@ else:
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/1q.png)
 
 
-#wait 5 sec
+# wait 5 sec
 ```
 import requests
 import time
@@ -36,8 +36,8 @@ for i in range(1,10):
 ```
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/2q.png)
 
-#ppt scrap
-#remember pip install beautifulsoup4 and lxml
+# ppt scrap
+##remember pip install beautifulsoup4 and lxml
 ```
 import requests
 from bs4 import BeautifulSoup
@@ -59,7 +59,7 @@ else:
 ```
 
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/3q.png)
-#cookie
+# cookie
 ```
 import requests
 from bs4 import BeautifulSoup
@@ -84,7 +84,7 @@ else:
 
 ![image](https://github.com/kampfcl3/pyhon_WebScrapying/blob/main/pic/4q.png)
 
-#建立爬蟲目標的URL網址
+# 建立爬蟲目標的URL網址
 ```
 from urllib.parse import urljoin
 
